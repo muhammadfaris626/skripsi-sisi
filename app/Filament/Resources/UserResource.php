@@ -111,6 +111,6 @@ class UserResource extends Resource
 
     public static function getLabel(): ?string
     {
-        return "Pengguna111";
+        return "Pengguna";
     }
 }
