@@ -28,6 +28,7 @@ class AdminPanelProvider extends PanelProvider
             ->id('admin')
             ->path('')
             ->login()
+            ->favicon(asset('bank-sulselbar-logo.png'))
             ->registration(Register::class)
             // ->colors([
             //     'primary' => Color::Amber,
